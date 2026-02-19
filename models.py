@@ -1,7 +1,6 @@
 class Conta:
-    def __init__(self, numero, titular):
+    def __init__(self, numero):
         self.numero = numero
-        self.titular = titular
         self.saldo = 0 
         self.historico = []
 
@@ -30,3 +29,10 @@ class Conta:
         print("\n=== Historico ===")
         for transacao in self.historico:
             print(transacao)
+
+class Usuario:
+    def __init__(self, username, senha, is_admin=False):
+        self.username = username
+        self.senha = senha
+        self.is_admin = is_admin
+        self.conta = None
