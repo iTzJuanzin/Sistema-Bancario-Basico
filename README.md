@@ -26,9 +26,3 @@ sistema-bancario-basico/
 ├── main.py # Interface e fluxo do programa
 ├── banco.py # Regras de negócio do sistema
 └── models.py # Modelagem das entidades (Usuario e Conta)
-
-sistema_bancario_v2/
-│
-├── main.py # Interface e fluxo do programa
-├── banco.py # Regras de negócio do sistema
-└── models.py # Modelagem das entidades (Usuario e Conta)
